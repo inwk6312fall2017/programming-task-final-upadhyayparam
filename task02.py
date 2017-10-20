@@ -19,3 +19,15 @@ for forecasts in location.forecast():
     b.append(forecast['low'])
     i+=1
     a.append(b)
+print (a)
+max = 0
+
+for lists in a
+    if int(lists[2] > max:
+	max = int(lists[2])
+	s = lists[1]
+print(s)
+
+
+
+
