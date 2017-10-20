@@ -1,0 +1,17 @@
+file1 = open("Book1.txt","r")
+file2 = open("Book2.txt","r")
+file3 = open("Book3.txt","r")
+read1 = file1.read()
+read2 = file2.read()
+read3 = file3.read()
+line1 = read1.strip(' ')
+line2 = read2.strip(' ')
+line3 = read3.strip(' ')
+words1 = line1.split()
+words2 = line2.split()
+words3 = line3.split()
+
+
+print (words1)
+print (words2)
+print (words3)
