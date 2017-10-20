@@ -6,3 +6,16 @@ loc = input ("Enter the location":)
 location = weather.lookup_by_location('halifax')
 condition = location.condition()
 print ("The current weayher is "+ (condition['text'])
+
+a =[]
+i=0
+
+for forecasts in location.forecast():
+    if i<5:
+    b = []
+    b.append(forecast['text']
+    b.append(forecast['date'])
+    b.append(forecast['high'])
+    b.append(forecast['low'])
+    i+=1
+    a.append(b)
